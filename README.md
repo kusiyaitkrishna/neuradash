@@ -87,6 +87,48 @@ The dashboard connects to the Neuraguard Backend API for live data. Key endpoint
 - `/scan/threats/{id}`: Fetch detected security threats.
 - `/monitoring/identities`: Manage monitored entities.
 
+## 🤝 Contribution Guidelines
+
+We welcome contributions to Neuraguard! To ensure a smooth workflow and maintain code quality, please follow these guidelines when working on new features or bug fixes.
+
+### Branching Strategy
+**Never push directly to the `main` branch.** All changes must go through a Pull Request (PR).
+
+1.  **Create a Feature Branch**:
+    Always create a separate branch for your work. Use descriptive names that indicate the type of work (feature, bugfix, hotfix) and the specific task.
+    ```bash
+    # For new features
+    git checkout -b feature/add-new-chart
+
+    # For bug fixes
+    git checkout -b bugfix/fix-login-error
+
+    # For documentation updates
+    git checkout -b docs/update-readme
+    ```
+
+2.  **Commit Messages**:
+    Write clear, concise commit messages that explain *what* changed and *why*.
+    ```bash
+    git commit -m "feat: add real-time threat graph to dashboard"
+    ```
+
+3.  **Push and Open a PR**:
+    Push your branch to the repository and open a Pull Request against `main`.
+    ```bash
+    git push origin feature/add-new-chart
+    ```
+
+### Development Workflow
+1.  **Sync with Main**: Before starting, ensure your local `main` is up to date.
+    ```bash
+    git checkout main
+    git pull origin main
+    ```
+2.  **Install Dependencies**: Run `npm install` to ensure you have the latest packages.
+3.  **Test Your Changes**: Verify that your changes work locally before pushing.
+4.  **Code Style**: Ensure your code follows the project's styling (Tailwind CSS classes, TypeScript typing).
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
