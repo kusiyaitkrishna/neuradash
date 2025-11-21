@@ -42,7 +42,7 @@
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/neuradash.git
+    git clone https://github.com/kusiyaitkrishna/neuradash.git
     cd neuradash
     ```
 
