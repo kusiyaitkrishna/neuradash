@@ -1,7 +1,5 @@
 # Neuraguard Dashboard 🛡️
 
-![Neuraguard Dashboard](https://via.placeholder.com/1200x600/020817/F8FAFC?text=Neuraguard+Dashboard+Preview)
-
 **Neuraguard** is a next-generation security command center designed for real-time digital footprint monitoring, threat intelligence, and vulnerability scanning. Built with a "Midnight Pro" aesthetic, it offers a high-performance control plane for security professionals.
 
 ## 🚀 Features
